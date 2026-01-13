@@ -16,15 +16,30 @@
 - **Tools**: Git, Docker, AWS, SQL, REST APIs
 
 ### 📈 Projects
-1. **Autonomous Driving Perception** 🚗  
+1. Hackathon Runner-Up - MGEN 2025 Hackathon
+   **Title:** DNATE MSL Practice Gym: AI-powered Medical Science Liaison training application
+   **Skills:**  Python, LangChain, OpenAI, MongoDB
+   **Contributions:** Architected multi-pattern prompt system (persona, gameplay, fact-check) for dynamic scenario generation and user
+   evaluation. Built data ingestion and retrieval pipeline using MongoDB to provide real-time access to medical information.
+
+2. Hackathon Winner - Diall Mental Health Hackathon 
+   **Title:** TherapEase: Generative AI platform for psychological assessment
+   **Skills:** Python, PyTorch, Stable Diffusion, OpenAI, ChromaDB
+   Contributions: Implemented contextual scenario-based questionnaire generation using Stable Diffusion and RAG pipeline using
+   GPT-3.5 and ChromaDB for patient response analysis report generation.
+
+3. **Autonomous Driving Perception** 🚗  
    - Developed a multi-task learning framework for **lane detection** and **3D object detection**.
    - **BEV perception** and **topological reasoning** to improve scene understanding(**WIP**).
 
-2. **Mental Health AI App** 🧠  
-   - Created an AI-based app for assisting therapists using **Stable Diffusion** for scenario generation and **GPT-3.5** for response summarization.
-   - Won **1st place** in the **Diall Hackathon**.
-
-4. **Harmful Brain Activity Detection**  
+4. **AdCampaignOptimizationSystem**
+   **Skills:** Python, PyTorch, CrewAI, OpenAI 
+   • Developed hierarchical multi-agent ad campaign optimization system with CrewAI for LLM-powered analytics, achieving
+   2.16× conversions over baseline.
+   • Integrated RL policies (DQN for bidding, PPO for budget allocation and orchestration) validated over 1000+ simulated ad
+   auction episodes yielding 94% multi-agent coordination learning.
+   
+5. **Harmful Brain Activity Detection**  
    - Generated spectrograms from EEG data and trained a **ResNet-50** model using transfer learning.
 
 ### 📫 Connect with Me!
