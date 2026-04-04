@@ -1,55 +1,80 @@
-# 👋 Hello, I'm Akshay Bharadwaj!
+# Hi, I'm Akshay Bharadwaj 👋
 
-🚀 **Machine Learning Enthusiast** | 🎓 Graduate Student @ Northeastern University | 🤖 **Graduate Research Assistant** 
+**AI/ML Engineer** with 5 years of experience across computer vision, agentic AI systems, and applied ML — from medical robotics to autonomous driving to production LLM pipelines.
 
----
-
-### 💡 About Me
-- 🔬 Currently working on **autonomous driving research** focusing on multi-task learning for perception tasks.
-- 📚 Experience in building **NLP** and **Computer Vision** projects such as **Conversational AI**, **Semantic Search**, **Image Classification**, **3D Lane Line Detection**, and **Automated Stock Trading**.
-- 🏆 Winner in the **Diall Mental Health AI Hackathon**, built a **generative AI app** to assist therapists in assessing psychological conditions of patients.
-
-### 🌟 Skills
-- **Machine Learning**: PyTorch, TensorFlow, Scikit-Learn, Keras
-- **NLP**: Transformers, Text Mining, Conversational AI
-- **Computer Vision**: Vision Transformers, ResNet, OpenCV, YOLO
-- **Tools**: Git, Docker, AWS, SQL, REST APIs
-
-### 📈 Projects
-1. Hackathon Runner-Up - MGEN 2025 Hackathon:
-
-   **Title:** DNATE MSL Practice Gym: AI-powered Medical Science Liaison training application
-   **Skills:**  Python, LangChain, OpenAI, MongoDB
-   **Contributions:** Architected multi-pattern prompt system (persona, gameplay, fact-check) for dynamic scenario generation and user
-   evaluation. Built data ingestion and retrieval pipeline using MongoDB to provide real-time access to medical information.
-
-2. Hackathon Winner - Diall Mental Health Hackathon
-
-   **Title:** TherapEase: Generative AI platform for psychological assessment
-   **Skills:** Python, PyTorch, Stable Diffusion, OpenAI, ChromaDB
-   Contributions: Implemented contextual scenario-based questionnaire generation using Stable Diffusion and RAG pipeline using
-   GPT-3.5 and ChromaDB for patient response analysis report generation.
-
-3. **Autonomous Driving Perception** 🚗
-   
-   - Developed a multi-task learning framework for **lane detection** and **3D object detection**.
-   - **BEV perception** and **topological reasoning** to improve scene understanding(**WIP**).
-
-4. **AdCampaignOptimizationSystem**
-   
-   **Skills:** Python, PyTorch, CrewAI, OpenAI 
-   • Developed hierarchical multi-agent ad campaign optimization system with CrewAI for LLM-powered analytics, achieving
-   2.16× conversions over baseline.
-   • Integrated RL policies (DQN for bidding, PPO for budget allocation and orchestration) validated over 1000+ simulated ad
-   auction episodes yielding 94% multi-agent coordination learning.
-   
-### 📫 Connect with Me!
-- **LinkedIn**: [Akshay Bharadwaj](https://www.linkedin.com/in/akshay-bharadwaj)
-- **Email**: [akshaybharadwaj456@gmail.com]
-
-I enjoy applying AI to **novel problems** and exploring **autonomous systems**, always excited to tackle new challenges and **collaborate** on impactful projects.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshay_Bharadwaj-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/akshay-bharadwaj)
+[![Email](https://img.shields.io/badge/Email-akshaybharadwaj456@gmail.com-red?style=flat&logo=gmail)](mailto:akshaybharadwaj456@gmail.com)
 
 ---
 
-⭐️ Feel free to check out my repositories and contribute. I'm always open to **feedback and collaboration**!
+## 🧠 What I Build
 
+- **Agentic AI Systems** — multi-agent orchestration, HITL workflows, LangGraph, CrewAI
+- **Computer Vision** — lane detection, 3D object detection, BEV perception, medical imaging
+- **LLM Applications** — RAG pipelines, fine-tuning (LoRA), prompt engineering, LLM-as-a-judge
+- **MLOps** — production deployments on GCP (Cloud Run, Vertex AI), Docker, FastAPI, observability
+
+---
+
+## 🏆 Highlights
+
+**2× Hackathon Winner**
+
+🥇 **TherapEase** — 1st Place, Diall Mental Health Hackathon  
+Generative AI platform for psychological assessment. Built a RAG pipeline (GPT-3.5 + ChromaDB) for patient response analysis and contextual questionnaire generation using Stable Diffusion.
+
+🥈 **DNATE MSL Practice Gym** — 2nd Place, MGEN 2025 Hackathon  
+AI-powered Medical Science Liaison training app. Designed a multi-pattern prompt system (persona, gameplay, chain-of-thought) for dynamic scenario generation, MongoDB retrieval pipeline for real-time medical data, and LLM-as-a-judge evaluation for clarity and response quality.
+
+---
+
+## 🚀 Featured Projects
+
+### 🤖 [LangGraph Spreadsheet Validator](https://github.com/akshaybharadwaj)
+Multi-agent spreadsheet validation system with human-in-the-loop correction loops.  
+`LangGraph` `FastAPI` `GCP Cloud Run` `SHA-256 fingerprinting` `AG-UI` `SSE streaming`
+- Deployed end-to-end on GCP Cloud Run with real-time streaming via Server-Sent Events
+- HITL correction flow with JSONL persistence and data integrity verification
+
+### 🚗 [Autonomous Driving Perception](https://github.com/akshaybharadwaj)
+Multi-task learning framework for lane detection and 3D object detection on OpenLaneV2.  
+`PyTorch` `SegFormer` `DINOv2` `BEV Mapping` `CARLA` `GCP`
+- Generated novel multi-vehicle CAV dataset with 3D lane annotations using CARLA 0.9.16 on GCP
+- Explored BEV perception and topological reasoning for improved scene understanding
+
+### 📊 [AdCampaign Optimization System](https://github.com/akshaybharadwaj)
+Hierarchical multi-agent system for ad campaign optimization combining LLMs and RL.  
+`CrewAI` `PyTorch` `PPO` `DQN` `OpenAI`
+- Achieved 2.16× conversion improvement over baseline
+- 94% multi-agent coordination accuracy validated over 1,000+ simulated auction episodes
+
+### 🧬 [SQLBot — Text-to-SQL via LoRA Fine-Tuning](https://github.com/akshaybharadwaj)
+Fine-tuned CodeT5 with LoRA on Spider dataset for natural language to SQL translation.  
+`PyTorch` `PEFT` `LoRA` `CodeT5` `Transformers`
+- Significant BLEU score improvement over base model with parameter-efficient fine-tuning
+
+### 🔍 [ArXiv RAG Pipeline](https://github.com/akshaybharadwaj)
+Semantic search and retrieval system over ArXiv papers.  
+`LangChain` `ChromaDB` `FastAPI` `OpenAI`
+
+---
+
+## 🛠 Tech Stack
+
+| Area | Tools |
+|---|---|
+| **Frameworks** | PyTorch, TensorFlow, Scikit-Learn, Hugging Face |
+| **Agentic AI** | LangGraph, LangChain, CrewAI |
+| **LLMs & RAG** | OpenAI, LoRA/PEFT, ChromaDB, MongoDB |
+| **CV** | SegFormer, DINOv2, ResNet, YOLO, OpenCV |
+| **MLOps** | GCP (Cloud Run, Vertex AI), Docker, FastAPI, Prometheus, Grafana |
+| **Languages** | Python, SQL |
+
+---
+
+## 💼 Experience
+
+- **Imaging Engineer** — Perceptive Technologies *(computer vision for medical robotics)*
+- **ML Engineer** — BullForce.co *(automated trading systems, quantitative ML)*
+- **Data Scientist** — Mu Sigma
+- **MS Computer Science** — Northeastern University *(Dec 2025)*
