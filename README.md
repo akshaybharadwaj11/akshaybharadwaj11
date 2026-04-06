@@ -48,7 +48,7 @@ Hierarchical multi-agent system for ad campaign optimization combining LLMs and 
 - Achieved 2.16× conversion improvement over baseline
 - 94% multi-agent coordination accuracy validated over 1,000+ simulated auction episodes
 
-### 🧬 [SQLBot — Text-to-SQL via LoRA Fine-Tuning](https://github.com/akshaybharadwaj11/code-gen)
+### 🧬 [SQLBot — Text-to-SQL via LoRA Fine-Tuning](https://github.com/akshaybharadwaj11/SQLBot)
 Fine-tuned CodeT5 with LoRA on Spider dataset for natural language to SQL translation.  
 `PyTorch` `PEFT` `LoRA` `CodeT5` `Transformers`
 - Significant BLEU score improvement over base model with parameter-efficient fine-tuning
