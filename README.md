@@ -30,30 +30,30 @@ AI-powered Medical Science Liaison training app. Designed a multi-pattern prompt
 
 ## 🚀 Featured Projects
 
-### 🤖 [LangGraph Spreadsheet Validator](https://github.com/akshaybharadwaj)
+### 🤖 [LangGraph Spreadsheet Validator](https://github.com/akshaybharadwaj11/spreadsheet-validator)
 Multi-agent spreadsheet validation system with human-in-the-loop correction loops.  
 `LangGraph` `FastAPI` `GCP Cloud Run` `SHA-256 fingerprinting` `AG-UI` `SSE streaming`
 - Deployed end-to-end on GCP Cloud Run with real-time streaming via Server-Sent Events
 - HITL correction flow with JSONL persistence and data integrity verification
 
-### 🚗 [Autonomous Driving Perception](https://github.com/akshaybharadwaj)
+### 🚗 [Autonomous Driving Perception](https://github.com/akshaybharadwaj11/)
 Multi-task learning framework for lane detection and 3D object detection on OpenLaneV2.  
 `PyTorch` `SegFormer` `DINOv2` `BEV Mapping` `CARLA` `GCP`
 - Generated novel multi-vehicle CAV dataset with 3D lane annotations using CARLA 0.9.16 on GCP
 - Explored BEV perception and topological reasoning for improved scene understanding
 
-### 📊 [AdCampaign Optimization System](https://github.com/akshaybharadwaj)
+### 📊 [AdCampaign Optimization System](https://github.com/akshaybharadwaj11/AdCampaignOptimizationSystem)
 Hierarchical multi-agent system for ad campaign optimization combining LLMs and RL.  
 `CrewAI` `PyTorch` `PPO` `DQN` `OpenAI`
 - Achieved 2.16× conversion improvement over baseline
 - 94% multi-agent coordination accuracy validated over 1,000+ simulated auction episodes
 
-### 🧬 [SQLBot — Text-to-SQL via LoRA Fine-Tuning](https://github.com/akshaybharadwaj)
+### 🧬 [SQLBot — Text-to-SQL via LoRA Fine-Tuning](https://github.com/akshaybharadwaj11/code-gen)
 Fine-tuned CodeT5 with LoRA on Spider dataset for natural language to SQL translation.  
 `PyTorch` `PEFT` `LoRA` `CodeT5` `Transformers`
 - Significant BLEU score improvement over base model with parameter-efficient fine-tuning
 
-### 🔍 [ArXiv RAG Pipeline](https://github.com/akshaybharadwaj)
+### 🔍 [ArXiv RAG Pipeline](https://github.com/akshaybharadwaj11/Arxiv_Assistant)
 Semantic search and retrieval system over ArXiv papers.  
 `LangChain` `ChromaDB` `FastAPI` `OpenAI`
 
